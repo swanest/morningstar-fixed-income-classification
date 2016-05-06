@@ -1,0 +1,37 @@
+{
+  "name": "morningstar-fixed-income-classification",
+  "version": "0.1.0",
+  "description": "Node library to lookup in the Morningstar Global Fixed Income Classification (bond, cash,...)",
+  "main": "lib/model.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouriT/morningstar-fixed-income-classification.git"
+  },
+  "keywords": [
+    "morningstar",
+    "json",
+    "map",
+    "fixed income",
+    "fixed",
+    "income",
+    "bond",
+    "bonds",
+    "cash",
+    "classification",
+    "naics",
+    "index",
+    "data"
+  ],
+  "author": "Youri Tolstoy <ytolstoy@gmail.com> (https://swanest.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YouriT/morningstar-fixed-income-classification/issues"
+  },
+  "homepage": "https://github.com/YouriT/morningstar-fixed-income-classification#readme",
+  "devDependencies": {
+    "reverse-index": "0.0.1"
+  }
+}

@@ -1,0 +1,492 @@
+{
+  "10": {
+    "name": "Government",
+    "code": 10,
+    "type": "Super Sector",
+    "description": "This Super Sector includes all conventional debt issued by governments, bonds issued by a Central Bank or Treasury, and bonds issued by local governments, cantons, regions and provinces."
+  },
+  "20": {
+    "name": "Municipal",
+    "code": 20,
+    "type": "Super Sector",
+    "description": "The Municipal Super Sector includes taxable and tax-exempt debt obligations issued under the auspices of states, cities, counties, provinces, and other non-federal government entities."
+  },
+  "30": {
+    "name": "Corporate",
+    "code": 30,
+    "type": "Super Sector",
+    "description": "This Super Sector includes bank loans, convertible bonds, conventional debt securities issued by corporations, and preferred stock."
+  },
+  "40": {
+    "name": "Securitized",
+    "code": 40,
+    "type": "Super Sector",
+    "description": "The Securitized Super Sector includes all types of mortgage-backed securities, covered bonds and asset-backed securities."
+  },
+  "50": {
+    "name": "Cash & Equivalents",
+    "code": 50,
+    "type": "Super Sector",
+    "description": "This Super Sector includes cash in the bank, certificates of deposit, currency, and money market holdings. Cash can also be any fixed-income securities that mature in less than 12 months. This Super Sector also includes commercial paper and any repurchase agreements held by the fund. Derivatives The Derivatives Super Sector includes the common types of fixed-income derivative contracts: futures and forwards, options and swaps. For display purposes products may elect to identify this sector as Other."
+  },
+  "60": {
+    "name": "Derivatives (Other)",
+    "code": 60,
+    "type": "Super Sector"
+  },
+  "1010": {
+    "name": "Government",
+    "code": 1010,
+    "type": "Primary Sector",
+    "superSector": 10,
+    "description": "Government This Primary Sector includes all conventional debt issued by governments, including bonds issued by a Central Bank or Treasury and bonds issued by local governments, cantons, regions and provinces."
+  },
+  "1020": {
+    "name": "Government Related",
+    "code": 1020,
+    "type": "Primary Sector",
+    "superSector": 10,
+    "description": "This Primary Sector includes debt obligations issued by government agencies as well as interest-rate swaps and Treasury futures that are generally considered to have a risk profile commensurate with government bonds but may not have explicit government backing. Bonds issued by government-sponsored enterprises such as Federal National Mortgage Association and Federal Home Loan Mortgage Corporation can be found in this Primary Sector, while securities backed by mortgages that carry guarantees from government agencies can be found in the agency mortgage backed Primary Sector. Municipal"
+  },
+  "2010": {
+    "name": "Municipal Taxable",
+    "code": 2010,
+    "type": "Primary Sector",
+    "superSector": 10,
+    "description": "United States regulations require that bonds benefiting from a federal tax exemption be issued only for certain purposes. The interest on municipal bonds may be taxable (that is, not excluded from gross income for federal income tax purposes) if they are deemed to be issued in support of certain private activities. A municipal security is considered a private-activity bond if it meets either of two sets of conditions set out in Section 141 of the Internal Revenue Code, which includes limits on the use of bond proceeds for private business use. The interest from so-called qualified private-activity bonds may be excluded from gross income for federal income tax purposes, but it remains subject to the Alternative Minimum Tax. These \"AMT bonds\" are included in the Municipal Tax-Exempt Primary Sector. This sector also includes Build America Bonds, which were issued under the 2009 American Recovery and Reinvestment Act, and non- U.S. municipal bonds."
+  },
+  "2020": {
+    "name": "Municipal Tax-Exempt",
+    "code": 2020,
+    "type": "Primary Sector",
+    "superSector": 20,
+    "description": "Local governments, state governments, provinces, and regional authorities are often referred to more generally as \"municipalities\" and typically issue bonds in order to raise money for operations and development. This financing is sometimes used to build or upgrade hospitals, sewer systems, schools, housing, stadiums, or industrial complexes. Some municipal bonds are backed by the issuing entity, while others are linked to a revenue stream, such as from a toll way or a utility. Municipal bonds in the United States are typically exempt from federal taxes and often the taxes of the states in which they are issued. Those taxation advantages may allow municipal governments to sell bonds at lower interest rates than those offered by comparable taxable bonds. This Primary Sector includes issues that are subject to the Alternative Minimum Tax but not other federal taxes. Corporate"
+  },
+  "3010": {
+    "name": "Bank Loan",
+    "code": 3010,
+    "type": "Primary Sector",
+    "superSector": 30,
+    "description": "The bank loans most commonly held within investment portfolios are typically referred to as ,, because the balance sheets of their borrowers carry heavy debt burdens. Loans of this kind are: normally issued with interest payments that float above a commonly used short-term benchmark such as the London Interbank Offered Rate, or LIBOR, by at least 300 basis points; typically senior to nearly all other debt and equity in a company's capital structure; and very often secured by specific assets or cash flows."
+  },
+  "3020": {
+    "name": "Convertible",
+    "code": 3020,
+    "type": "Primary Sector",
+    "superSector": 30,
+    "description": "Convertible bonds give their owners an opportunity to convert each security to a certain number of shares of common stock at a certain price. As the stock approaches that price, the option to convert becomes more valuable and the price of the convertible also rises. These securities usually provide lower interest payments because the option to convert to stock could potentially be quite valuable at some point in the future."
+  },
+  "3030": {
+    "name": "Corporate Bond",
+    "code": 3030,
+    "type": "Primary Sector",
+    "superSector": 30,
+    "description": "This sector includes all conventional debt securities that are issued by corporations. Corporate bonds are issued with a wide range of coupon rates and maturity dates."
+  },
+  "3040": {
+    "name": "Preferred Stock",
+    "code": 3040,
+    "type": "Primary Sector",
+    "superSector": 30,
+    "description": "Preferred stock is legally structured as equity, above common equity in a company's capital structure, but does not offer voting rights. Preferred stock often pays a fixed dividend and has priority over common equity when an issuing company elects to pay dividends. Although preferred stocks are not debt instruments, investors often treat them as such because of their income payouts and higher capital-structure placement. Securitized"
+  },
+  "4010": {
+    "name": "Agency Mortgage-Backed",
+    "code": 4010,
+    "type": "Primary Sector",
+    "superSector": 40,
+    "description": "This sector contains securities that represent a claim on the cash flows associated with pools of mortgages guaranteed by a government agency. Rolling into this sector are items such as mortgage pass-throughs, mortgage CMOs, and mortgage ARMs. These securities are guaranteed by Ginnie Mae, an agency of the U.S. government, or by U.S.-government- sponsored enterprises such as Fannie Mae or Freddie Mac."
+  },
+  "4020": {
+    "name": "Non-Agency Residential Mortgage-Backed",
+    "code": 4020,
+    "type": "Primary Sector",
+    "superSector": 40,
+    "description": "Non-agency residential mortgage-backed securities are those not issued and guaranteed by Fannie Mae, Freddie Mac, or Ginnie Mae. Conforming loan size limits set by the U.S. government determine if a mortgage loan can qualify for an agency guarantee, and those that do not qualify make up the bulk of non-agency RMBS collateral. Because they lack a third-party guarantee, protection in the case of non-agency RMBS is generally provided through the creation of subordinate securities. These are first in line to offer credit protection to the senior most AAA rated classes and are accordingly priced at lower prices relative to AAAs, reflecting their higher exposure to credit risk."
+  },
+  "4030": {
+    "name": "Commercial Mortgage-Backed",
+    "code": 4030,
+    "type": "Primary Sector",
+    "superSector": 40,
+    "description": "A mortgage-backed security backed by mortgages on commercial properties rather than residential real estate."
+  },
+  "4040": {
+    "name": "Covered Bond",
+    "code": 4040,
+    "type": "Primary Sector",
+    "superSector": 40,
+    "description": "Covered bonds are securities issued by a bank and backed by either high-quality mortgage loans or public-sector loans, which represent the \"cover pool.\" Issuers raise assets for cover pools by selling \"covered bonds\" to investors, which maintain a claim on the cover pool but also a claim on the general assets and credit of the issuer. Part of what differentiates a cover pool from the assets supporting a typical mortgage-backed security is that the cover pool remains on the balance sheet of its issuer, usually a bank or special financial institution set up for this purpose."
+  },
+  "4050": {
+    "name": "Asset-Backed",
+    "code": 4050,
+    "type": "Primary Sector",
+    "superSector": 40,
+    "description": "Asset-backed securities are based on the expected cash flows from debts such as auto loans, credit card receivables, and computer leases among others. The cash flows for asset-backed securities can be fixed or variable. These securities typically range in effective maturity from two to seven years."
+  },
+  "5010": {
+    "name": "Cash & Equivalents",
+    "code": 5010,
+    "type": "Primary Sector",
+    "superSector": 50,
+    "description": "Cash & Equivalents Cash can be cash in the bank, certificates of deposit, currency, or money market holdings. Cash can also be any fixed-income securities that mature in less than 12 months. Cash also includes commercial paper and any repurchase agreements held by the fund. Derivatives"
+  },
+  "6010": {
+    "name": "Swap",
+    "code": 6010,
+    "type": "Primary Sector",
+    "superSector": 60,
+    "description": "Swaps are risk-shifting, over-the-counter agreements that allow one party to trade one type of exposure for another. Each party agrees in advance to trade one set of payments (e.g., fixed or floating interest rates on a predetermined notional amount) for a different set of payments for a set amount of time."
+  },
+  "6020": {
+    "name": "Future/Forward",
+    "code": 6020,
+    "type": "Primary Sector",
+    "superSector": 60,
+    "description": "By entering into a futures contract, the buyer (long position) has an obligation to purchase a specific underlying asset at an agreed-upon price at a specific date in the future. The seller of the futures contract takes a short position in the asset and agrees to sell it according to those terms. Forward contracts are very similar to futures contracts in that they also represent the obligation to buy or sell a specific asset on a specific future date."
+  },
+  "6030": {
+    "name": "Option/Warrant",
+    "code": 6030,
+    "type": "Primary Sector",
+    "superSector": 60,
+    "description": "Options are contracts that allow the holder to profit if the price of the underlying asset moves in a certain direction. Call options give the holder (the long position) the right, but not the obligation, to buy an asset at a predetermined strike price and profit when the asset price is higher than the strike price. Put options give the holder the right to sell an asset at a specific strike price and profit when the market price of the asset is below the strike price. The parties that write options take a short position and have the obligation to sell or buy the asset from the long position if the option is exercised. Warrants are a type of call option that is issued by the company, usually as part of a bond offering."
+  },
+  "1010100": {
+    "name": "Treasury",
+    "code": 1010100,
+    "type": "Secondary Sector",
+    "primarySector": 1010,
+    "superSector": 10,
+    "description": "This sector includes all conventional debt issued by a government’s Treasury (that is, it excludes inflation-protected securities). Some examples of government debt are Treasury bonds and Treasury notes. Treasury bills are included in the Cash and Equivalents Super Sector because they mature in less than 12 months."
+  },
+  "1010200": {
+    "name": "Inflation Protected",
+    "code": 1010200,
+    "type": "Secondary Sector",
+    "primarySector": 1010,
+    "superSector": 10,
+    "description": "For securities domiciled in the U.S., these are referred to as TIPS, or Treasury Inflation-Protected Securities. These bonds have principal and coupon payments that are linked to movements in the consumer price index. They can be used as a defensive measure against expectations of inflation (which typically erodes the real yield of conventional bonds). Even if inflation fears are in check, these bonds can benefit when yields fall on traditional Treasuries. These unique securities act very differently than fixed- rate bonds, and their volatility can change over time, depending on the level of interest rates. For non-U.S. domiciled securities, these are often referred to as inflation-linked bonds or linkers. In Canada these are termed real return bund and in Britain the inflation-linked Gilt. In Australia inflation-protected bonds are called Treasury-indexed bonds and are capital linked to the Australian Consumer Price Index. In most countries the consumer price index or an equivalent is used as an inflation proxy."
+  },
+  "1010300": {
+    "name": "Agency/Quasi Agency",
+    "code": 1010300,
+    "type": "Secondary Sector",
+    "primarySector": 1010,
+    "superSector": 10,
+    "description": "Includes low-risk debt obligations issued by a government agency or bonds issued by an agency of a central government."
+  },
+  "1020100": {
+    "name": "Supranational",
+    "code": 1020100,
+    "type": "Secondary Sector",
+    "primarySector": 1020,
+    "superSector": 10,
+    "description": "This sector includes bonds issued by supranational agencies, such as the International Bank for Reconstruction and Development [World Bank], European Investment Bank, Inter- American Development Bank, and others."
+  },
+  "1020200": {
+    "name": "Interest-Rate Derivative",
+    "code": 1020200,
+    "type": "Secondary Sector",
+    "primarySector": 1020,
+    "superSector": 10,
+    "description": "This sector includes interest rate swaps, interest rate futures and interest rate forwards. With an interest-rate swap, one party (the receiver) receives a fixed rate and pays a floating rate (usually LIBOR) to the counterparty. The receiver side of an interest-rate swap has exposure that is like a long investment-grade bond as well as short cash exposure, and the payer side has the opposite. Interest rate futures are future contracts on interest rates."
+  },
+  "1020300": {
+    "name": "Treasury Future",
+    "code": 1020300,
+    "type": "Secondary Sector",
+    "primarySector": 1020,
+    "superSector": 10,
+    "description": "By entering into a futures contract, the buyer (long position) has an obligation to purchase a U.S. Treasury instrument at an agreed-upon price at a specific date in the future. The seller of the futures contract takes a short position in the asset and agrees to deliver the instrument according to those terms."
+  },
+  "1020400": {
+    "name": "Other",
+    "code": 1020400,
+    "type": "Secondary Sector",
+    "primarySector": 1020,
+    "superSector": 10,
+    "description": "Includes government-related securities where Secondary Sector could not be identified. Swaptions are also included in this sector."
+  },
+  "1020500": {
+    "name": "Municipal Taxable",
+    "code": 1020500,
+    "type": "Secondary Sector",
+    "primarySector": 1020,
+    "superSector": 10,
+    "description": "Some municipal bonds are issued for certain purposes that are not tax-exempt. This Primary Sector includes taxable US-issued muni bonds, such as Build America Bonds, and non-US-issued muni bonds. The Secondary Sectors under this Primary Sector are the same as those under the Municipal Tax-Exempt Primary Sector."
+  },
+  "2010100": {
+    "name": "Municipal Tax-Exempt",
+    "code": 2010100,
+    "type": "Secondary Sector",
+    "primarySector": 2010,
+    "superSector": 10,
+    "description": "This Primary Sector includes bonds which benefit from federal tax exemptions. The Secondary Sectors under this Primary Sector are the same as those under the Municipal Taxable Primary Sector."
+  },
+  "2020100": {
+    "name": "Transportation",
+    "code": 2020100,
+    "type": "Secondary Sector",
+    "primarySector": 2020,
+    "superSector": 20,
+    "description": "Transportation-related municipal bonds finance all sorts of projects, including non-toll and toll-backed road, bridge, and tunnel construction. They may also finance airport and seaport construction, recurring maintenance of intra-county and city public transportation systems, and more. They may be backed by taxes, tolls, ridership fees, and more."
+  },
+  "2020200": {
+    "name": "Water & Sewer",
+    "code": 2020200,
+    "type": "Secondary Sector",
+    "primarySector": 2020,
+    "superSector": 20,
+    "description": "These municipal bonds are similar to utility-related issues. They provide initial financing for construction of water and sewer systems that property taxes or other income will eventually repay."
+  },
+  "2020300": {
+    "name": "Utilities",
+    "code": 2020300,
+    "type": "Secondary Sector",
+    "primarySector": 2020,
+    "superSector": 20,
+    "description": "Utility-related municipal bonds finance construction and maintenance of power plants, electrical grids, telephone grids, and more. Their source of backing varies but may include property taxes, usage fees, and more."
+  },
+  "2020400": {
+    "name": "Miscellaneous Revenue",
+    "code": 2020400,
+    "type": "Secondary Sector",
+    "primarySector": 2020,
+    "superSector": 20,
+    "description": "This category describes harder-to-categorize municipal bonds that may finance a wide variety of projects."
+  },
+  "3010100": {
+    "name": "Bank Loan",
+    "code": 3010100,
+    "type": "Secondary Sector",
+    "primarySector": 3010,
+    "superSector": 30,
+    "description": "Rather than issuing bonds directly some corporate debt is sold into the secondary market in the form of Bank Loans or Leveraged Loans. The Secondary Sectors under for each of the Primary Sectors under the Corporate Super Sector are identical."
+  },
+  "3020100": {
+    "name": "Corporate Bonds",
+    "code": 3020100,
+    "type": "Secondary Sector",
+    "primarySector": 3020,
+    "superSector": 30,
+    "description": "This includes all conventional debt securities that are issued by corporations. Corporate bonds are issued with a wide range of coupon rates and maturity dates .The Secondary Sectors under for each of the Primary Sectors under the Corporate Super Sector are identical"
+  },
+  "3030100": {
+    "name": "Preferred Stock",
+    "code": 3030100,
+    "type": "Secondary Sector",
+    "primarySector": 3030,
+    "superSector": 30,
+    "description": "Preferred stock is legally structured as equity, above common equity in a company's capital structure, but does not offer voting rights. Although preferred stocks are not debt instruments, investors often treat them as such because of their income payouts and higher capital-structure placement. The Secondary Sectors under for each of the Primary Sectors under the Corporate Super Sector are identical"
+  },
+  "3040100": {
+    "name": "Health-Care",
+    "code": 3040100,
+    "type": "Secondary Sector",
+    "primarySector": 3040,
+    "superSector": 30,
+    "description": "This Secondary Sector includes biotechnology, pharmaceuticals, research services, home health-care, hospitals, long-term-care facilities, and medical equipment and supplies."
+  },
+  "3040200": {
+    "name": "Industrials",
+    "code": 3040200,
+    "type": "Secondary Sector",
+    "primarySector": 3040,
+    "superSector": 30,
+    "description": "Companies that manufacture machinery, hand-held tools, and industrial products. This Secondary Sector also includes aerospace and defense firms as well as companies engaged in transportations and logistic services."
+  },
+  "3040300": {
+    "name": "Real Estate",
+    "code": 3040300,
+    "type": "Secondary Sector",
+    "primarySector": 3040,
+    "superSector": 30,
+    "description": "This sector includes mortgage companies, property management companies, and REITs."
+  },
+  "3040400": {
+    "name": "Utilities",
+    "code": 3040400,
+    "type": "Secondary Sector",
+    "primarySector": 3040,
+    "superSector": 30,
+    "description": "Electric, gas, and water utilities. Companies in this Secondary Sector include Electricité de France, Exelon Corporation, and PG&E Corporation."
+  },
+  "3040500": {
+    "name": "Unspecified",
+    "code": 3040500,
+    "type": "Secondary Sector",
+    "primarySector": 3040,
+    "superSector": 30,
+    "description": "Corporate sector designation could not be determined."
+  },
+  "3040600": {
+    "name": "Agency Pass-Through",
+    "code": 3040600,
+    "type": "Secondary Sector",
+    "primarySector": 3040,
+    "superSector": 30,
+    "description": "These are securities that represent a claim on the cash flows associated with a pool of mortgages. Pass-through bondholders are entitled to a pro-rata share of the principal and interest payments paid by the homeowners. The timely payment of principal and interest for agency pass-through securities is guaranteed by government agencies. The underlying collateral of bonds in this Secondary Sector are fixed-rate mortgages; bonds backed by adjustable-rate mortgages are included in the Agency ARM Secondary Sector."
+  },
+  "4010100": {
+    "name": "Non-Agency Residential Mortgage-Backed",
+    "code": 4010100,
+    "type": "Secondary Sector",
+    "primarySector": 4010,
+    "superSector": 40,
+    "description": "Non-agency residential mortgage-backed securities are those not issued and guaranteed by Fannie Mae, Freddie Mac, or Ginnie Mae. Conforming loan size limits set by the U.S. government determine if a mortgage loan can qualify for an agency guarantee, and those that do not qualify make up the bulk of non-agency RMBS collateral. Because they lack a third-party guarantee, protection in the case of non-agency RMBS is generally provided through the creation of subordinate securities. These are first in line to offer credit protection to the senior-most AAA rated classes and are accordingly priced at lower prices relative to AAAs, reflecting their higher exposure to credit risk. A type of mortgage-backed security backed by mortgages on commercial rather than residential real estate."
+  },
+  "4010200": {
+    "name": "Unspecified",
+    "code": 4010200,
+    "type": "Secondary Sector",
+    "primarySector": 4010,
+    "superSector": 40,
+    "description": "Securities that are identifiable as agency mortgage-backed, but further classification could not be determined."
+  },
+  "4040100": {
+    "name": "Covered Bonds",
+    "code": 4040100,
+    "type": "Secondary Sector",
+    "primarySector": 4040,
+    "superSector": 40,
+    "description": "Issuers raise assets for cover pools by selling \"covered bonds\" to investors, which maintain a claim on the cover pool, but also a claim on the general assets and credit of the issuer. Part of what differentiates a cover pool from the assets supporting a typical mortgage-backed security is that the cover pool remains on the balance sheet of its issuer, usually a bank or special financial institution set up for this purpose."
+  },
+  "4050100": {
+    "name": "Credit Card",
+    "code": 4050100,
+    "type": "Secondary Sector",
+    "primarySector": 4050,
+    "superSector": 40,
+    "description": "Credit card issuers, such as banks, issue asset-backed securities whose collateral is the amount that cardholders must pay to repay their credit card debt."
+  },
+  "4050200": {
+    "name": "Home Equity",
+    "code": 4050200,
+    "type": "Secondary Sector",
+    "primarySector": 4050,
+    "superSector": 40,
+    "description": "These ABS are backed by home equity loans. Unlike mortgage- backed securities, home equity loans are typically second-lien debts that are junior to a primary mortgage."
+  },
+  "4050300": {
+    "name": "Student Loan",
+    "code": 4050300,
+    "type": "Secondary Sector",
+    "primarySector": 4050,
+    "superSector": 40,
+    "description": "These asset-backed securities have student loan repayments as their collateral."
+  },
+  "4050400": {
+    "name": "Other",
+    "code": 4050400,
+    "type": "Secondary Sector",
+    "primarySector": 4050,
+    "superSector": 40,
+    "description": "These are unidentified asset-backed securities and those that do not fit into one of the categories specified above."
+  },
+  "4050500": {
+    "name": "ABS",
+    "code": 4050500,
+    "type": "Secondary Sector",
+    "primarySector": 4050,
+    "superSector": 40,
+    "description": "See definition of asset-backed securities above. These are securities with maturity in less than one year."
+  },
+  "5010100": {
+    "name": "Money Market",
+    "code": 5010100,
+    "type": "Secondary Sector",
+    "primarySector": 5010,
+    "superSector": 50,
+    "description": "These are investments in money market funds designed to provide a level of current income that is consistent with the preservation of capital. These are securities with maturity of less than one year."
+  },
+  "5010200": {
+    "name": "Municipal",
+    "code": 5010200,
+    "type": "Secondary Sector",
+    "primarySector": 5010,
+    "superSector": 50,
+    "description": "See Municipal definition above. These are securities with maturity of less than one year."
+  },
+  "5010300": {
+    "name": "Repurchase Agreement",
+    "code": 5010300,
+    "type": "Secondary Sector",
+    "primarySector": 5010,
+    "superSector": 50,
+    "description": "A form of short-term borrowing where two parties have an agreement where one party sells a security at a specified price with a commitment to buy the security back at a later date. Most repurchase agreements are overnight transactions."
+  },
+  "5010400": {
+    "name": "TD/CD",
+    "code": 5010400,
+    "type": "Secondary Sector",
+    "primarySector": 5010,
+    "superSector": 50,
+    "description": "A time deposit is an interest-bearing deposit at a savings institution that has specific maturity. A certificate of deposit represents a fixed-income debt security, usually issued by chartered banks. The minimum deposit is usually $1,000, and the maturity terms can vary from short term to several years."
+  },
+  "5010500": {
+    "name": "Other",
+    "code": 5010500,
+    "type": "Secondary Sector",
+    "primarySector": 5010,
+    "superSector": 50,
+    "description": "Includes securities with a maturity of less than one year not listed in one of the secondary sectors above."
+  },
+  "5010600": {
+    "name": "MBS",
+    "code": 5010600,
+    "type": "Secondary Sector",
+    "primarySector": 5010,
+    "superSector": 50,
+    "description": "See Mortgage-Backed Securities definition above. These are securities with maturities of less than one year."
+  },
+  "6010100": {
+    "name": "Total Return Swap",
+    "code": 6010100,
+    "type": "Secondary Sector",
+    "primarySector": 6010,
+    "superSector": 60,
+    "description": "These are commonly used to gain exposure to a bond that the fund does not own. The fund pays a floating rate and receives the income and capital gains from the bond in return. This provides the fund with long exposure to the reference bond and short exposure to cash."
+  },
+  "6010200": {
+    "name": "Debt Swap",
+    "code": 6010200,
+    "type": "Secondary Sector",
+    "primarySector": 6010,
+    "superSector": 60,
+    "description": "A debt swap is a series of transactions where debts or receivables are exchanged between two entities."
+  },
+  "6010300": {
+    "name": "Bond Future",
+    "code": 6010300,
+    "type": "Secondary Sector",
+    "primarySector": 6010,
+    "superSector": 60,
+    "description": "These are futures contracts on specific bond issues, generally corporate bonds."
+  },
+  "6020100": {
+    "name": "Currency Forward/Future",
+    "code": 6020100,
+    "type": "Secondary Sector",
+    "primarySector": 6020,
+    "superSector": 60,
+    "description": "These are future and forward contracts on currencies."
+  },
+  "6020200": {
+    "name": "Bond Unit",
+    "code": 6020200,
+    "type": "Secondary Sector",
+    "primarySector": 6020,
+    "superSector": 60,
+    "description": "Bond units are units where the underlying security is the issuer’s debt."
+  },
+  "6020300": {
+    "name": "Bond - Option",
+    "code": 6020300,
+    "type": "Secondary Sector",
+    "primarySector": 6020,
+    "superSector": 60,
+    "description": "Options are contracts that allow the holder to profit if the price of the underlying asset moves in a certain direction. Call options give the holder (the long position) the right, but not the obligation, to buy an asset at a predetermined strike price and profit when the asset price is higher than the strike price. Put options give the holder the right to sell an asset at a specific strike price and profit when the market price of the asset is below the strike price. The parties that write options take a short position and have the obligation to sell or buy the asset from the long position if the option is exercised. Options can be used for speculation or for hedging. Bond index options are included in this sector."
+  }
+}
