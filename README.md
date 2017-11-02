@@ -46,12 +46,12 @@ MFICS.search('finance');
 */
 
 MFICS.find('2020100');
-/*=> { name: 'Transportation',
-       code: 202100,
+/*=> { name: 'Water & Sewer',
+       code: 2020100,
        type: 'Secondary Sector',
-       primarySector: 2020,
        superSector: 20,
-       description: 'Transportation-related municipal bonds finance all sorts of projects, including non-toll and toll-backed road, bridge, and tunnel construction. They may also finance airport and seaport construction, recurring maintenance of intra-county and city public transportation systems, and more. They may be backed by taxes, tolls, ridership fees, and more.' }
+       primarySector: 2020,
+       description: 'These municipal bonds are similar to utility-related issues. They provide initial financing for construction of water and sewer systems that property taxes or other income will eventually repay.' }
 */
 
 MFICS.above('2020100');
@@ -124,7 +124,7 @@ In order to enable keyword-based searches on the MFICS dataset, we use a reverse
 In order to rebuild the index run the following command from the project directory:
 
 ```shell
-$ ./bin/build-index
+$ ./bin/build-index.js
 ```
 
-(inspired from @lovehandle/naics-2012 - thanks !)
+Most of the work comes from [@lovehandle/naics-2012](https://github.com/lovehandle/naics-2012)

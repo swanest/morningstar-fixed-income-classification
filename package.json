@@ -1,6 +1,6 @@
 {
   "name": "morningstar-fixed-income-classification",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node library to lookup in the Morningstar Global Fixed Income Classification (bond, cash,...)",
   "main": "lib/model.js",
   "scripts": {
@@ -32,6 +32,6 @@
   },
   "homepage": "https://github.com/YouriT/morningstar-fixed-income-classification#readme",
   "devDependencies": {
-    "reverse-index": "0.0.1"
+    "text-tokenize": "0.0.1"
   }
 }
