@@ -167,7 +167,7 @@
     "type": "Secondary Sector",
     "superSector": 10,
     "primarySector": 1010,
-    "description": "For securities domiciled in the U.S., these are referred to as TIPS, or Treasury Inflation-Protected Securities. These bonds have principal and coupon payments that are linked to movements in the consumer price index. They can be used as a defensive measure against expectations of inflation (which typically erodes the real yield of conventional bonds). Even if inflation fears are in check, these bonds can benefit when yields fall on traditional Treasuries. These unique securities act very differently than fixed- rate bonds, and their volatility can change over time, depending on the level of interest rates. For non-U.S. domiciled securities, these are often referred to as inflation-linked bonds or linkers. In Canada these are termed real return bund and in Britain the inflation-linked Gilt. In Australia inflation-protected bonds are called Treasury-indexed bonds and are capital linked to the Australian Consumer Price Index. In most countries the consumer price index or an equivalent is used as an inflation proxy."
+    "description": "For securities domiciled in the U.S., these are referred to as TIPS, or Treasury Inflation-Protected Securities. These bonds have principal and coupon payments that are linked to movements in the consumer price index. They can be used as a defensive measure against expectations of inflation (which typically erodes the real yield of conventional bonds). Even if inflation fears are in check, these bonds can benefit when yields fall on traditional Treasuries. These unique securities act very differently than fixed- rate bonds, and their volatility can change over time, depending on the level of interest rates. For non-U.S. domiciled securities, these are often referred to as inflation-linked bonds or linkers. In Canada these are termed real return bond and in Britain the inflation-linked Gilt. In Australia inflation-protected bonds are called Treasury-indexed bonds and are capital linked to the Australian Consumer Price Index. In most countries the consumer price index or an equivalent is used as an inflation proxy."
   },
   "1020010": {
     "name": "Agency/Quasi Agency",
@@ -215,7 +215,7 @@
     "type": "Secondary Sector",
     "superSector": 20,
     "primarySector": 2010,
-    "description": "Some municipal bonds are issued for certain purposes that are not tax-exempt. This Primary Sector includes taxable US-issued muni bonds, such as Build America Bonds, and non-US-issued muni bonds. The Secondary Sectors under this Primary Sector are the same as those under the Municipal Tax-Exempt Primary Sector."
+    "description": "Some municipal bonds are issued for certain purposes that are not tax-exempt. This Primary Sector includes taxable US-issued municipal bonds, such as Build America Bonds, and non-US-issued municipal bonds. The Secondary Sectors under this Primary Sector are the same as those under the Municipal Tax-Exempt Primary Sector."
   },
   "2020010": {
     "name": "Municipal Tax-Exempt",
@@ -391,7 +391,7 @@
     "type": "Secondary Sector",
     "superSector": 30,
     "primarySector": 3040,
-    "description": "Companies that manufacture machinery, hand-held tools, and industrial products. This Secondary Sector also includes aerospace and defense firms as well as companies engaged in transportations and logistic services."
+    "description": "Companies that manufacture machinery, hand-held tools, and industrial products. This Secondary Sector also includes aerospace and defense firms as well as companies engaged in transportation and logistic services."
   },
   "3040080": {
     "name": "Real Estate",
