@@ -1,6 +1,6 @@
 {
   "name": "morningstar-fixed-income-classification",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Node library to lookup in the Morningstar Global Fixed Income Classification (bond, cash,...)",
   "main": "lib/model.js",
   "scripts": {

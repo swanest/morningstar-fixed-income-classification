@@ -52,7 +52,7 @@
     "name": "Municipal Taxable",
     "code": 2010,
     "type": "Primary Sector",
-    "superSector": 10,
+    "superSector": 20,
     "description": "United States regulations require that bonds benefiting from a federal tax exemption be issued only for certain purposes. The interest on municipal bonds may be taxable (that is, not excluded from gross income for federal income tax purposes) if they are deemed to be issued in support of certain private activities. A municipal security is considered a private-activity bond if it meets either of two sets of conditions set out in Section 141 of the Internal Revenue Code, which includes limits on the use of bond proceeds for private business use. The interest from so-called qualified private-activity bonds may be excluded from gross income for federal income tax purposes, but it remains subject to the Alternative Minimum Tax. These \"AMT bonds\" are included in the Municipal Tax-Exempt Primary Sector. This sector also includes Build America Bonds, which were issued under the 2009 American Recovery and Reinvestment Act, and non- U.S. municipal bonds."
   },
   "2020": {
