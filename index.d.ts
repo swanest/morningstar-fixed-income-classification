@@ -1,5 +1,5 @@
 declare module 'morningstar-fixed-income-classification' {
-    interface IEquityData {
+    export interface IFixedData {
         code: number;
         description?: string;
         name: string;
@@ -9,15 +9,15 @@ declare module 'morningstar-fixed-income-classification' {
         type: string;
     }
 
-    export function above(code: string | number): IEquityData[];
+    export function above(code: string | number): IFixedData[];
 
     export function all(): {
-        [code: string]: IEquityData;
+        [code: string]: IFixedData;
     };
 
-    export function below(code: string | number): IEquityData[];
+    export function below(code: string | number): IFixedData[];
 
-    export function find(code: string | number): IEquityData;
+    export function find(code: string | number): IFixedData;
 
-    export function search(keyword?: string, type?: string): IEquityData[];
+    export function search(keyword?: string, type?: string): IFixedData[];
 }
